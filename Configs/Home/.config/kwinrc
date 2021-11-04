@@ -1,10 +1,10 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend
 
 [Compositing]
 GLCore=true
-LatencyPolicy=High
 GLTextureFilter=1
+LatencyPolicy=High
 OpenGLIsUnsafe=false
 
 [Desktops]
@@ -16,10 +16,10 @@ Rows=1
 BorderActivateAll=9
 
 [Effect-Wobbly]
-Drag=90
-ResizeWobble=false
-Stiffness=6
-WobblynessLevel=2
+Drag=97
+MoveFactor=25
+Stiffness=1
+WobblynessLevel=4
 
 [Plugins]
 desktopchangeosdEnabled=false
@@ -37,6 +37,11 @@ slideEnabled=false
 slidebackEnabled=true
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
+wobblywindowsEnabled=true
+
+[Script-forceblur]
+blurContent=true
+patterns=dolphin\nyakuake\nurxvt\nkeepassxc\nkonsole\nthunar
 
 [TabBox]
 BorderActivate=9

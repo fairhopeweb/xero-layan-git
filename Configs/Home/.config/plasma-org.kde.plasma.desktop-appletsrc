@@ -25,7 +25,7 @@ ToolBoxButtonX=897
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/defaultbg/XeroLinux.png
-SlidePaths=$HOME/.local/share/wallpapers/
+SlidePaths=/usr/share/defaultbg,$HOME/.local/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=

@@ -2,4 +2,4 @@
 name=Layan
 
 [Wallpapers]
-usersWallpapers=file:///$HOME/.local/share/wallpapers/UHD9.png
+usersWallpapers=/usr/share/defaultbg/XeroLinux.png
