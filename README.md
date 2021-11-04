@@ -4,7 +4,7 @@ Some notes before proceeding :
 
 > Applying this rice will override all your settings. So make sure to create a backup of your system either via Snapper if using it, or TimeShift. Don't worry though, script will attempt to create a backup for you of your ~/.config folder before proceeding. Still better be safe than sorry.
 
-![XeroLayan](https://i.imgur.com/oOOEKzw.jpeg)
+![XeroLayan](https://i.imgur.com/aVgMxed.jpg)
 
 # What you need ...
 
