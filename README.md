@@ -8,7 +8,7 @@ Some notes before proceeding :
 
 # What you need ...
 
-First off, note that if you want to use on other distros than **XeroLinux** you will need to add my repo since most of the packages are only available there.
+First off, note that if you want to use on other Arch based distros with KDE than **XeroLinux** you will need to add my repo since most of the packages are only available there. (This does not apply to Debian or Fedora).
 
 Open the file `/etc/pacman.conf` and add my repo below anywhere :
 ```
@@ -20,7 +20,15 @@ Save the file, and refresh databases via `sudo pacman -Sy` then follow below ste
 
 # Installation
 
-Just clone this repository, run terminal inside directory and run installer via `./install.sh` Script will do the following steps :
+Just clone this repository, run terminal inside directory and run installer Script corresponding ro you Distro base (Arch/Debian/Fedora).
+
+- For Arch run `./installArch.sh`
+- For Fedora run `installFedora.sh`
+- For Debian run `installDebian.sh`
+
+**Note :** On **KDENeon** Grub theme will be applied, but since it's set to silent you will have to find a way to make it visible. I will post guide when I find it.. Sorry bout that...
+
+### Script will do the following steps :
 
 - Create a cbackup of your ~/.config folder.
 - Download and install necessary packages if needed...
