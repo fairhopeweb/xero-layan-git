@@ -23,7 +23,7 @@ cd ..
 sleep 2
 echo "Installing Fonts"
 echo "#################################"
-sudo apt install fonts-firacode fonts-font-awesome libfontawesomefx-java tex-gyre fonts-noto-color-emoji tex-gyre-fonts fonts-hack-ttf
+sudo apt install fonts-firacode fonts-font-awesome libfontawesomefx-java fonts-noto-color-emoji tex-gyre-fonts fonts-hack-ttf
 mkdir -p ~/.local/share/fonts/FiraCodeNerd
 cp -Rf FiraCodeNerd/. ~/.local/share/fonts/FiraCodeNerd/
 sudo fc-cache -f -v
@@ -39,6 +39,14 @@ echo "Applying Grub Theme...."
 echo "#################################"
 chmod +x CyberRe.sh
 sudo ./CyberRe.sh
+sleep 2
+echo "Activating Hidden Grub...."
+echo "#################################"
+sudo sed -i "s/GRUB_DEFAULT=0/GRUB_DEFAULT=saved/g" /etc/default/grub
+sudo sed -i "s/GRUB_TIMEOUT_STYLE/#GRUB_TIMEOUT_STYLE/g" /etc/default/grub
+sudo sed -i "s/GRUB_TIMEOUT=0/GRUB_TIMEOUT=5/g" /etc/default/grub
+sudo sed -i "s/#GRUB_GFXMODE=640x480/GRUB_GFXMODE=1920x1080/g" /etc/default/grub
+sudo update-grub
 sleep 2
 echo "Rebooting system in 5 seconds..."
 echo "#################################"
