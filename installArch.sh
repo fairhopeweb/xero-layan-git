@@ -34,7 +34,3 @@ echo "Rebooting system in 5 seconds..."
 echo "#################################"
 sleep 5
 sudo reboot
-
-
-
-
