@@ -32,8 +32,6 @@ echo "Applying new Rice, hold on..."
 echo "#################################"
 cp -Rf Configs/Home/. ~
 sudo cp -Rf Configs/System/. /
-sudo sed -i "s/ascii_distro=auto/ascii_distro=Debian/g" ~/.config/neofetch/config.conf
-sudo sed -i "s/{cl7}Linux/{cl2}Linux/g" ~/.config/neofetch/config.conf
 sleep 2
 echo "Applying Grub Theme...."
 echo "#################################"
