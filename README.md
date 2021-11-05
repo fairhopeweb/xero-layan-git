@@ -23,8 +23,8 @@ Save the file, and refresh databases via `sudo pacman -Sy` then follow below ste
 Just clone this repository, run terminal inside directory and run installer Script corresponding ro you Distro base (Arch/Debian/Fedora).
 
 - For Arch run `./installArch.sh`
-- For Fedora run `installFedora.sh`
-- For Debian run `installDebian.sh`
+- For Fedora run `./installFedora.sh`
+- For Debian run `./installDebian.sh`
 
 **Note :** On **KDENeon** Grub theme will be applied, but since it's set to silent you will have to find a way to make it visible. I will post guide when I find it.. Sorry bout that...
 
