@@ -26,7 +26,9 @@ Just clone this repository, run terminal inside directory and run installer Scri
 - For Fedora run `./installFedora.sh`
 - For Debian run `./installDebian.sh`
 
-**Note :** On **KDENeon** Grub theme will be applied, but since it's set to silent you will have to find a way to make it visible. I will post guide when I find it.. Sorry bout that... Also **Debian** script was based on **KDENeon** so your experience may vary on other *Debian* based distros when it comes to package availability.
+**Debian :** This script was based **KDENeon** so your experience may vary on other *Debian* based distros when it comes to package availability, meaning on some **LTS** releases packages may be older than the reuired versions so some of the configs might look out of place. Will update the script accordingly once a solution is found. **USE AT YOUR OWN RISK**
+
+**KDENeon :** On this distro **Grub** theme will *NOT* be applied, since it's set to silent. It's up to you to find a way to make it visible. I will post guide when I find it.. Sorry bout that...
 
 ### Script will do the following steps :
 
