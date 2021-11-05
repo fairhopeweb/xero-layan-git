@@ -20,7 +20,7 @@ Save the file, and refresh databases via `sudo pacman -Sy` then follow below ste
 
 # Installation
 
-Just clone this repository, run terminal inside directory and run installer Script corresponding to you Distro base (Arch/Debian/Fedora).
+Just clone this repository, run terminal inside directory and run installer Script corresponding to your Arch-based w/KDE/Debian-based w/KDE/Fedora Distro.
 
 - For Arch run `./installArch.sh`
 - For Fedora run `./installFedora.sh`
