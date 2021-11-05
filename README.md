@@ -30,7 +30,7 @@ Just clone this repository, run terminal inside directory and run installer Scri
 
 **Debian :** This script was based **KDENeon** so your experience may vary on other *Debian* based distros when it comes to package availability, meaning on some **LTS** releases packages may be older than the required versions so some of the configs might look out of place.  It's highly recommended to be on newer distros based on 21.10 for better experience... I will update the script accordingly once a solution is found. **USE AT YOUR OWN RISK**
 
-**KDENeon :** On this distro **Grub** theme will *NOT* be applied, since it's set to silent. It's up to you to find a way to make it visible. I will post guide when I find it.. Sorry bout that...
+**Grub Theme :** On *some* distros **Grub** theme will *NOT* be shown, since it's set to silent. It's up to you to find a way to make it visible. I will post guide when I find it.. Sorry bout that...
 
 ## Script will do the following steps :
 
