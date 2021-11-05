@@ -6,7 +6,7 @@ Some notes before proceeding :
 
 ![XeroLayan](https://i.imgur.com/aVgMxed.jpg)
 
-# What you need ...
+# Requirement for Arch KDE Distros ...
 
 First off, note that if you want to use on other Arch based distros with KDE than **XeroLinux** you will need to add my repo since most of the packages are only available there. (This does not apply to Debian or Fedora).
 
