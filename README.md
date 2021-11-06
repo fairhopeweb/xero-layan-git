@@ -32,9 +32,9 @@ Just clone this repository, run terminal inside directory and run installer Scri
 
 > This script was based on **KDENeon** which uses the *Impish* updated repositories, so your experience may vary on older or *LTS* distros when it comes to package availability, meaning on some *Older* releases using the *Stable/LTS* repos, packages may be older than the required versions so some of the configs might look out of place. It's highly recommended to be on newer distros based on 21.10 for better experience... I will update the script accordingly once a solution is found.
 
-**Customized Distros :**(Not Recommended)
+**Customized Distros :** (Not Recommended)
 
-> On *Customized* distros *some* rice elements may *NOT* be applied. It could be due to a proprietary configurations. For example some distros opt to use **LightDM** as opposed to **SDDM** which is used in my rice, so that part won't get themed. Also, others have weird **Grub** configs, mainly *Debian*, which won't allow my theme to work etc... For that reason it's not recommended to use this rice with *Pre-Customized Distros*.If you really want to use it, **USE ONLY WITH VANILLA KDE**, otherwise I cannot provide any support, contact your Distro's Dev for help.
+> On *Customized* distros *some* rice elements may *NOT* be applied. It could be due to proprietary configurations and different tools used. That's why it's not recommended to use this rice with them. I mean a rice on top of an already applied one, recipe for disaster. For example some distros opt to use **LightDM** as opposed to **SDDM** which is used in my rice, so that part won't get themed. Also, others have weird **Grub** configs, mainly *Debian*, which won't allow my theme to work etc... For that reason it's not recommended to use this rice with *Pre-Customized Distros*.If you really want to use it, **USE ONLY WITH VANILLA KDE**, otherwise I cannot provide any support, contact your Distro's Dev for help.
 
 ## Script will do the following steps :
 
