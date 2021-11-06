@@ -10,7 +10,7 @@ cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 sleep 2
 echo "Installing required Tools"
 echo "#################################"
-sudo apt install qt5-style-kvantum latte-dock lolcat neofetch yakuake
+sudo apt install qt5-style-kvantum latte-dock lolcat neofetch yakuake -y
 sleep 2
 echo "Installing Layan Theme"
 echo "#################################"
@@ -23,7 +23,7 @@ cd ..
 sleep 2
 echo "Installing Fonts"
 echo "#################################"
-sudo apt install fonts-firacode fonts-font-awesome libfontawesomefx-java fonts-noto-color-emoji fonts-hack-ttf
+sudo apt install fonts-firacode fonts-font-awesome libfontawesomefx-java fonts-noto-color-emoji fonts-hack-ttf -y
 mkdir -p ~/.local/share/fonts/FiraCodeNerd
 cp -Rf FiraCodeNerd/. ~/.local/share/fonts/FiraCodeNerd/
 sudo fc-cache -f -v
