@@ -23,7 +23,7 @@ cd ..
 sleep 2
 echo "Installing Fonts"
 echo "#################################"
-sudo apt install fonts-firacode fonts-font-awesome libfontawesomefx-java fonts-noto-color-emoji tex-gyre-fonts fonts-hack-ttf
+sudo apt install fonts-firacode fonts-font-awesome libfontawesomefx-java fonts-noto-color-emoji fonts-hack-ttf
 mkdir -p ~/.local/share/fonts/FiraCodeNerd
 cp -Rf FiraCodeNerd/. ~/.local/share/fonts/FiraCodeNerd/
 sudo fc-cache -f -v
