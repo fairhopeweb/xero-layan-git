@@ -28,13 +28,13 @@ Just clone this repository, run terminal inside directory and run installer Scri
 
 ## Compatibility Issues :
 
-**Debian :**
+**Debian Packages :**
 
-> This script was based on **KDENeon** so your experience may vary on other *Debian* based distros when it comes to package availability, meaning on some **LTS** releases packages may be older than the required versions so some of the configs might look out of place. It's highly recommended to be on newer distros based on 21.10 for better experience... I will update the script accordingly once a solution is found.
+> This script was based on **KDENeon** which uses the *Impish* updated repositories, so your experience may vary on older or *LTS* distros when it comes to package availability, meaning on some *Older* releases using the *Stable/LTS* repos, packages may be older than the required versions so some of the configs might look out of place. It's highly recommended to be on newer distros based on 21.10 for better experience... I will update the script accordingly once a solution is found.
 
-**Customized Distros :**
+**Customized Distros :**(Not Recommended)
 
-> On *some* distros *some* theme elements might *NOT* be applied. It could be due to a proprietary configurations. For example some distros opt to use **LightDM** as opposed to **SDDM** which is used in my rice, so that part won't get themed. Also, others have weird **Grub** configs which won't allow my theme to work etc... I can't do much in this regard, you will have to check with Distro Developers on how to fix them issues. Out of my hands.... I did my best...
+> On *Customized* distros *some* rice elements may *NOT* be applied. It could be due to a proprietary configurations. For example some distros opt to use **LightDM** as opposed to **SDDM** which is used in my rice, so that part won't get themed. Also, others have weird **Grub** configs, mainly *Debian*, which won't allow my theme to work etc... For that reason it's not recommended to use this rice with *Pre-Customized Distros*.If you really want to use it, **USE ONLY WITH VANILLA KDE**, otherwise I cannot provide any support, contact your Distro's Dev for help.
 
 ## Script will do the following steps :
 
