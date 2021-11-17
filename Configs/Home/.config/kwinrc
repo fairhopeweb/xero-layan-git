@@ -26,6 +26,9 @@ MoveFactor=25
 Stiffness=1
 WobblynessLevel=4
 
+[ModifierOnlyShortcuts]
+Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
+
 [Plugins]
 blurEnabled=true
 desktopchangeosdEnabled=false
