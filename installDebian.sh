@@ -4,6 +4,10 @@ echo "##########################################"
 echo "Be Careful this will override your Rice!! "
 echo "##########################################"
 sleep 5
+echo "Updating the system in case required"
+echo "#####################################"
+sudo apt update && sudo apt upgrade -y
+sleep 2
 echo "Creating Backups of ~/.config folder"
 echo "#####################################"
 cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
