@@ -44,6 +44,7 @@ sudo sed -i "s/GRUB_DEFAULT=0/GRUB_DEFAULT=saved/g" /etc/default/grub
 sudo sed -i "s/GRUB_TIMEOUT_STYLE/#GRUB_TIMEOUT_STYLE/g" /etc/default/grub
 sudo sed -i "s/GRUB_TIMEOUT=0/GRUB_TIMEOUT=5/g" /etc/default/grub
 sudo sed -i "s/#GRUB_GFXMODE=640x480/GRUB_GFXMODE=1920x1080/g" /etc/default/grub
+sudo sed -i "s/GRUB_THEME/#GRUB_THEME/g" /etc/default/grub.d/99_breeze-grub.cfg
 sudo update-grub
 sleep 2
 echo "Rebooting system in 5 seconds..."
