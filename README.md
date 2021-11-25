@@ -3,6 +3,9 @@
 Some notes before proceeding :
 
 > Applying this rice will override all your settings. So make sure to create a backup of your system either via Snapper if using it, or TimeShift. Don't worry though, script will attempt to create a backup for you of your ~/.config folder before proceeding. Still better be safe than sorry.
+> 
+> This rice as with all rices is not recommended to be used on lower-end hardware. iGPUs and less than 4GB RAM will result in sluggish and sometimes laggy behaviour. You've been warned. If still insist on installing on lower-end systems, don't come to me asking for help..
+
 
 ![XeroLayan](https://i.imgur.com/aVgMxed.jpg)
 
