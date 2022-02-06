@@ -6,7 +6,7 @@ echo "##########################################"
 sleep 5
 echo "Updating the system in case required"
 echo "#####################################"
-sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y --allow-downgrade
 sleep 2
 echo "Creating Backups of ~/.config folder"
 echo "#####################################"
