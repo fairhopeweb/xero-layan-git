@@ -49,6 +49,10 @@ Just clone this repository, run terminal inside directory and run installer Scri
 - Install and apply CyberRe Grub Theme...
 - Reboot system to get everything loaded... 
 
+**Proof Of Concept :**
+
 > That's the *Only* rice I will make cross-distro compatible. I will not make anymore. I already have my own to worry about. I just make this as proof of concept. Luckily it worked just fine. Don't expect another. I really hope you enjoy it while it lasts.
+
+**Do At Own Risk :**
 
 > Use this at your own Risk ! I won't be held liable if you didn't follow above recommendations.... Always Backup.. If you don't and break your system it's on you !!!!
