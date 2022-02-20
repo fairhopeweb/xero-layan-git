@@ -42,6 +42,7 @@ macsimizeEnabled=false
 minimizeallEnabled=true
 movewindowtocenterEnabled=true
 opacitymenuEnabled=true
+overviewEnabled=true
 screenSnapping5Enabled=true
 sheetEnabled=true
 slideEnabled=false
