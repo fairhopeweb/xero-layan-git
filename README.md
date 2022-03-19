@@ -27,6 +27,8 @@ Save the file, and refresh databases via `sudo pacman -Sy` then follow below ste
 
 Just clone this repository, run terminal inside directory and run installer Script corresponding to your Arch-based w/KDE/Debian-based w/KDE/Fedora Distro.
 
+`git clone https://github.com/xerolinux/xero-layan-git.git && cd xero-layan-git && ./installArch.sh`
+
 - For Arch run `./installArch.sh`
 - For Fedora run `./installFedora.sh`
 - For Debian run `./installNeon.sh`
