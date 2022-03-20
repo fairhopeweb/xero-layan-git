@@ -13,7 +13,7 @@
 
 # Requirement for *Other* Arch KDE Distros ...
 
-First off, note that if you want to use on other Arch based distros with KDE than **XeroLinux** you will need to add my repo since most of the packages are only available there. (This does not apply to Debian or Fedora).
+First off, note that if you want to use on other Arch based distros with KDE than **XeroLinux** you will need to add my repo since most of the packages are only available there. (This does not apply to XeroLinux as repo already there).
 
 Open the file `/etc/pacman.conf` and add my repo at the bottom of the file :
 ```
