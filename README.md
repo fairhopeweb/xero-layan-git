@@ -25,7 +25,7 @@ Save the file, and refresh databases via `sudo pacman -Sy` then follow below ste
 
 # Installation
 
-Just clone this repository, run terminal inside directory and run installer Script corresponding to your Arch-based w/KDE/Debian-based w/KDE/Fedora Distro.
+Just clone this repository, run terminal inside directory and run installer Script using below command.
 
 `git clone https://github.com/xerolinux/xero-layan-git.git && cd xero-layan-git && ./install.sh`
 
