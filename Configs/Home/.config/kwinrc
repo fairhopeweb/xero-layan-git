@@ -30,6 +30,7 @@ WobblynessLevel=4
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
 [Plugins]
+autocomposerEnabled=true
 blurEnabled=true
 desktopchangeosdEnabled=false
 dynamic_workspacesEnabled=true
