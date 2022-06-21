@@ -10,7 +10,7 @@ mv ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 sleep 2
 echo "Removing old Latte-Dock & Lightly"
 echo "#################################"
-sudo pacman -Rdd --noconfirm latte-dock-git lightly-git
+sudo pacman -R --noconfirm latte-dock lightly-git
 sleep 2
 echo
 echo "Installing required Tools"
