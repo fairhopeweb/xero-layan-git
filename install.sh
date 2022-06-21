@@ -10,6 +10,7 @@ mv ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 sleep 2
 echo "Installing required Tools"
 echo "#################################"
+sudo pacman -Rdd --noconfirm latte-dock
 sudo pacman -S --needed --noconfirm kvantum latte-dock-git neofetch kde-wallpapers
 sleep 2
 echo "Installing Layan Theme"
