@@ -61,7 +61,7 @@ patterns=dolphin\nyakuake\nurxvt\nkeepassxc\nkonsole\nthunar
 
 [TabBox]
 BorderActivate=9
-LayoutName=preview_reel
+LayoutName=coverswitch
 
 [Windows]
 Placement=Centered
