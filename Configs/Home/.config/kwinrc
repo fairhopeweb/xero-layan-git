@@ -37,6 +37,7 @@ dynamic_workspacesEnabled=true
 force-decorations-gtk3Enabled=false
 forceblurEnabled=true
 kwin4_effect_fadedesktopEnabled=true
+kwin4_effect_dimscreenEnabled=true
 kwin4_effect_maximize_xrenderEnabled=true
 lattewindowcolorsEnabled=true
 minimizeallEnabled=true
