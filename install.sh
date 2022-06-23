@@ -16,7 +16,7 @@ sleep 2
 echo
 echo "Installing New latte-Git version"
 echo "#################################"
-sudo pacman -S --needed --noconfirm latte-dock-git
+sudo pacman -S --needed --noconfirm latte-dock-git kvantum
 sleep 2
 echo "Installing Layan Theme"
 echo "#################################"
