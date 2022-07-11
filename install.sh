@@ -20,7 +20,7 @@ sudo pacman -S --needed --noconfirm latte-dock-git kvantum
 sleep 2
 echo "Installing Layan Theme"
 echo "#################################"
-sudo pacman -S --needed --noconfirm layan-gtk-theme-git layan-kde-git tela-circle-icon-theme-git
+sudo pacman -S --needed --noconfirm layan-gtk-theme-git layan-kde-git tela-purple-icon-theme-git
 sleep 2
 echo "Installing Fonts"
 echo "#################################"
