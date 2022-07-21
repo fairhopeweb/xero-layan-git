@@ -33,6 +33,10 @@ sudo cp -Rf Configs/System/. /
 sed -i "s/{.*}/{C2}/g" ~/XeroAscii
 sudo sed -i "s/Current=.*/Current=XeroDark/" /etc/sddm.conf.d/kde_settings.conf
 sleep 2
+echo "Applying Flatpak Theme Fix..."
+echo "#################################"
+cp -r /usr/share/themes/Layan-Dark ~/.themes/
+sleep 2
 echo "Applying Grub Theme...."
 echo "#################################"
 chmod +x CyberRe.sh
